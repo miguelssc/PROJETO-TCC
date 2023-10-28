@@ -1,13 +1,24 @@
 #cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+   
+}
+#logo{ 
 display: flex;
-justify-content: center;
-border: 2px solid;
-background-color: #f7f7f7;
+justify-content: left;
+height: 50px;
+width: 50px;
+border: 0px solid;
+border-radius: 100px;
 }
-#logo{
-    height: 100px;
-    width: 100px;
+#sobre ,#projetos, #contato{
+  margin-top: 15px;
 }
+
 #conteudo1{
     display: flex;
     justify-content: center;
@@ -40,47 +51,4 @@ background-color: #f7f7f7;
 * {
     padding: 0;
     margin: 0;
-  }
-  .img-container {
-    width: 100vw;
-    height: 100vh;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .img-container img {
-    width: 600px;
-    height: 500px;
-    background-color: #87A0E2;
-    border-radius: 16px;
-    position: absolute;
-    user-select: none;
-    transition-property: transform, opacity, zIndex, ; 
-    transition-duration: 0.3s; 
-    transition-timing-function: ease-out; 
-  }
-  .arrows {
-    width: 900px;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
-  }
-  .arrows svg {
-    width: 60px;
-    height: 60px;
-    position: relative;
-    fill: white;
-    opacity: 0.8;
-    cursor: pointer;
-  }
-   
-  .arrows svg:active {
-    transform: scale(0.9);
-    opacity: 1;
-    transition-property: transform, opacity; 
-    transition-duration: 0.3s; 
-    transition-timing-function: ease-out; 
   }

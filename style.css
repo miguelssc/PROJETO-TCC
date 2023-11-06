@@ -1,42 +1,124 @@
+/*tudo do cabeçalho*/
 #cabeçalho{
     display: flex;
     justify-content: space-around;
-    height: 50px;
+    height: 60px;
     font-size: 16px;
     font-weight: bold;
-    color: black;
-   
+    color: rgb(255, 255, 255);
+   position: fixed;
+   width: 100%;
+   background-color: #050A30;
 }
-#logo{ 
+#logo{
 display: flex;
 justify-content: left;
 height: 50px;
 width: 50px;
 border: 0px solid;
 border-radius: 100px;
+margin-left: 200px;
+margin-top: 5px;
 }
-#sobre ,#projetos, #contato{
-  margin-top: 15px;
+#sobre ,#projetos, #contato, #inicio{
+  margin-top: 20px;
 }
-
+#inicio{
+    margin-left: 750px;
+}
+contato{
+    margin-right: 200px;
+}
+/*conteudo das fotos*/
 #conteudo1{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #f7f7f7;
     height: 700px;
 }
+#titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    font-size: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+#card1, #card2, #card3{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+   
+}
+#card1{
+    margin-right: 80px;
+ display: flex;
+ justify-content: center;
+ padding-top: 5px;
+}
+#card2{
+ display: flex;
+ justify-content: center;
+ padding-top: 5px;
+}
+#card3{
+    margin-left: 80px;
+ display: flex;
+ justify-content: center;
+ padding-top: 5px;
+}
+#nome1{
+display: flex;
+align-items: end;
+justify-content: center;
+
+}
+/*texto1*/
 #conteudo2{
     display: flex;
     justify-content: center;
     background-color: rgb(2, 49, 34);
     height: 700px;
 }
+
+.texto1{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 823px;
+  height: 493px;
+  border: 2px solid;background-color: #050A30 ;
+  margin-top: 30px;
+  
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*tudo do conteudo3*/
 #conteudo3{
     display: flex;
     justify-content: center;
     background-color: aquamarine;
     height: 700px;
 }
+.container2{
+    display: flex;
+    justify-content: center;
+    width: 823px;
+  height: 493px;
+  border: 2px solid;background-color: #050A30 ;
+  margin-top: 50px;
+}
+#titulo2{
+    padding-left: 100px;
+}
+/*tudo do conteudo4*/
 #conteudo4{
     display: flex;
     justify-content: center;

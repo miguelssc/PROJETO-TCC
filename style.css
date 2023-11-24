@@ -23,6 +23,7 @@ margin-top: 5px;
 #sobre ,#projetos, #contato, #inicio{
   margin-top: 20px;
   color: #e1e1e1;
+  display: inline-block;
 }
 #sobre:hover ,#projetos:hover, #contato:hover, #inicio:hover{
     color: #e1e1e1;
